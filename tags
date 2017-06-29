@@ -1,0 +1,56 @@
+Mmain.cpp	main.cpp	/^int main( int argc, char** args )$/
+N_alloc	PIC.cpp	/^void PIC::N_alloc(int num_of_nodes) {$/
+N_set_zero	PIC.cpp	/^void PIC::N_set_zero() {$/
+PIC	PIC.cpp	/^PIC::PIC() $/
+PIC_Cell	PIC_Domain.cpp	/^PIC_Cell::PIC_Cell(){ $/
+PIC_Domain	PIC_Domain.cpp	/^PIC_Domain::PIC_Domain() { $/
+PIC_Field	PIC_Field.cpp	/^PIC_Field::PIC_Field() { };$/
+PIC_Particle	PIC_Particle.cpp	/^PIC_Particle::PIC_Particle() {$/
+PIC_TDMA	PIC_TDMA.cpp	/^PIC_TDMA::PIC_TDMA() { };$/
+TDMA_solve	PIC_Impl.cpp	/^void TDMA_solve( double* L, double* D, double* U, /
+TS_elapse_dt	PIC.cpp	/^void PIC::TS_elapse_dt() {$/
+TS_init	PIC.cpp	/^void PIC::TS_init( double timestep_size , double t/
+TS_reach_terminal	PIC.cpp	/^bool PIC::TS_reach_terminal() {$/
+Var_NormalDistri	PIC_Impl.cpp	/^double Var_NormalDistri( double Mean, double Sigma/
+Velocity_MaxwellianDistri	PIC_Impl.cpp	/^double Velocity_MaxwellianDistri( double mass, dou/
+alloc	PIC_Field.cpp	/^void PIC_Field::alloc( int num_of_nodes ) {$/
+build_domain_uniform	PIC.cpp	/^void PIC::build_domain_uniform( double L, int num_/
+compute_electric_force_on_particles	PIC.cpp	/^void PIC::compute_electric_force_on_particles() {$/
+compute_particle_number_density_on_nodes	PIC.cpp	/^void PIC::compute_particle_number_density_on_nodes/
+compute_rho_on_nodes	PIC.cpp	/^void PIC::compute_rho_on_nodes() {$/
+field_alloc	PIC.cpp	/^void PIC::field_alloc( int num_of_nodes ) {$/
+init_assembly	PIC.cpp	/^void PIC::init_assembly() {$/
+is_inside	PIC_Domain.cpp	/^bool PIC_Domain::is_inside( double coor_x ) {$/
+is_outside	PIC_Domain.cpp	/^int PIC_Cell::is_outside( double coor_x ) {$/
+mesh_uniform_partition	PIC_Domain.cpp	/^void PIC_Domain::mesh_uniform_partition() {$/
+motion_electric_force	PIC_Particle.cpp	/^void PIC_Particle::motion_electric_force( double E/
+motion_force	PIC_Particle.cpp	/^void PIC_Particle::motion_force( double dt, double/
+motion_move	PIC_Particle.cpp	/^void PIC_Particle::motion_move( double dt )$/
+motion_update_v	PIC_Particle.cpp	/^void PIC_Particle::motion_update_v( double dt, boo/
+output_data_bulk_values	PIC.cpp	/^void PIC::output_data_bulk_values(int i_mod) {$/
+output_data_profile	PIC.cpp	/^void PIC::output_data_profile( int i_mod ) {$/
+output_electrostatics	PIC.cpp	/^void PIC::output_electrostatics() {$/
+particle_alloc	PIC.cpp	/^void PIC::particle_alloc( double number_density, d/
+particle_motion_processing	PIC.cpp	/^void PIC::particle_motion_processing( PIC_Particle/
+particle_sampling	PIC.cpp	/^void PIC::particle_sampling() {$/
+particle_tracking	PIC.cpp	/^void PIC::particle_tracking() {$/
+randf	PIC_Impl.cpp	/^double randf() {$/
+resolve_electro_stat_prop	PIC.cpp	/^void PIC::resolve_electro_stat_prop() {$/
+resolve_field_default	PIC_Field.cpp	/^void PIC_Field::resolve_field_default() {$/
+set	PIC_Domain.cpp	/^void PIC_Cell::set( double pt_L, double pt_R, doub/
+set_rho_zero	PIC_Field.cpp	/^void PIC_Field::set_rho_zero() {$/
+show_init	PIC.cpp	/^void PIC::show_init() {$/
+solve_phi_by_TDMA_default	PIC_Field.cpp	/^void PIC_Field::solve_phi_by_TDMA_default() {$/
+specify_cell_index	PIC_Domain.cpp	/^int PIC_Domain::specify_cell_index( int seed, doub/
+specify_motion_init	PIC_Particle.cpp	/^void PIC_Particle::specify_motion_init( double pos/
+specify_property	PIC_Particle.cpp	/^void PIC_Particle::specify_property( double m, int/
+tdma_init	PIC_TDMA.cpp	/^void PIC_TDMA::tdma_init(int n) {$/
+tdma_mat_set_default	PIC_TDMA.cpp	/^void PIC_TDMA::tdma_mat_set_default() {$/
+tdma_rhs_set_default	PIC_TDMA.cpp	/^void PIC_TDMA::tdma_rhs_set_default( double dx, do/
+tdma_solve	PIC_TDMA.cpp	/^void PIC_TDMA::tdma_solve( double* x ) {$/
+tdma_solve_default	PIC_TDMA.cpp	/^void PIC_TDMA::tdma_solve_default() {$/
+tdma_verification	PIC_TDMA.cpp	/^void PIC_TDMA::tdma_verification() {$/
+update_particle_motion	PIC.cpp	/^void PIC::update_particle_motion() {$/
+weight_charge_to_nodes	PIC.cpp	/^void PIC::weight_charge_to_nodes( PIC_Particle* Pa/
+weight_electric_force_to_particles	PIC.cpp	/^void PIC::weight_electric_force_to_particles( PIC_/
+weight_particle_to_nodes	PIC.cpp	/^void PIC::weight_particle_to_nodes( PIC_Particle* /
